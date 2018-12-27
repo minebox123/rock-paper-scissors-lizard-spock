@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="resources/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <title>The Game</title>
+  </head>
+  <body>
+
+
+
+<!-- Heading -->
+<header>
+<h1>Rock Paper Scissors Lizard Spock</h1>
+<div class="btn">
+  <button id="eng" type="button" onclick="rulesEnglish()">Rules</button>
+  <button id="rus" type="button" onclick="rulesRussian()">Правила</button>
+  <p id="text"></p>
+</div>
+</header>
+
+  <main>
+
+<!-- Game's Field -->
+
+<div class="images">
+  <div class="pic1">
+    <div id="scissors">
+    <img id="scissors" src="resources/images/scissors.png" alt="scissors by a hand">
+  </div>
+  </div>
+  <div class="pic2">
+    <div id="spock">
+      <img id="spock" src="resources/images/spock.png" alt="the spock sign">
+  </div>
+  <div id="paper">
+    <img id="paper" src="resources/images/paper.png" alt="paper by a hand">
+  </div>
+  </div>
+
+  <div class="pic3">
+    <div id="lizard">
+    <img id="lizard" src="resources/images/lizard.png" alt="a lizard sign">
+  </div>
+  <div id="rock">
+    <img id="rock" src="resources/images/rock.png"  alt="rock sign">
+  </div>
+  </div>
+</div>
+<div class="scores">
+  <div class="scores_sc">
+    <h2>Scores</h2>
+  </div>
+  <div class="versus">
+    <div class="player">
+      <h2>Player</h2>
+      <p id='player_scores'>0</p>
+    </div>
+   <span>:</span>
+  <div class="computer">
+    <h2>Computer</h2>
+    <p id='computer_scores'>0</p>
+  </div>
+  </div>
+  <div class="result">
+    <p>Result:</p>
+    <p id='final-message'></p>
+  </div>
+</div>
+
+
+</main>
+<script type="text/javascript" src="resources/JavaScript/main.js"></script>
+  </body>
+
+</html>

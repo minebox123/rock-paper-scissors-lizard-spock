@@ -1,0 +1,158 @@
+html {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* Header Section */
+
+header {
+  max-width: 1300px;
+  margin: 2rem auto;
+}
+header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.btn {
+  text-align: center;
+  margin-top: 1rem;
+}
+#eng {
+  font-size: 25px;
+  padding: 1.5px 15px;
+  border-radius: 5px;
+  background-color: #FFFAFA;
+  border: 2px solid #008CBA;
+  transition-duration: 40ms;
+  box-shadow: 0 2px #999;
+}
+#eng:hover {
+  background-color: #008CBA;
+  color: #FFFAFA;
+}
+#eng:active {
+
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#eng:hover {
+  background-color: #008CBA;
+  color: #FFFAFA;
+}
+#rus {
+  padding: 1.5px 10px;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: #FFFAFA;
+  border: 2px solid #008CBA;
+  transition-duration: 40ms;
+  box-shadow: 0 2px #999;
+}
+#rus:hover {
+  background-color: #008CBA;
+  color: #FFFAFA;
+}
+#rus:active {
+
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#text {
+  margin: 2rem auto;
+  width: 60%;
+  line-height: 1.4;
+  font-size: 1.3rem;
+}
+
+/* Main Section */
+
+main {
+  display: flex;
+  margin: 5rem auto;
+  max-width: 1300px;
+
+}
+.images {
+  min-width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.pic1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ img {
+ cursor: pointer;
+}
+.pic2 {
+  display: flex;
+   width: 50%;
+  justify-content: space-between;
+}
+.pic3 {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.scores {
+  min-width: 40%;
+  margin-top: 4rem;
+
+}
+.scores_sc h2 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+.versus {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 2rem;
+
+}
+.player h2{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.player p {
+  font-size: 4rem;
+  position: relative;
+  left: 1.5rem;
+  top: 1rem;
+}
+.computer h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.computer p {
+  font-size: 4rem;
+  position: relative;
+  left: 3rem;
+  top: 1rem;
+}
+span {
+  position: relative;
+  top: 2.5rem;
+  left: 1.5rem;
+  font-size: 4rem;
+}
+.result {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+#final-message {
+  font-size: 3rem;
+}
